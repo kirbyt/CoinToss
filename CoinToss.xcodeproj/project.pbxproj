@@ -1,0 +1,226 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68AAA28D131FFDAE000B7D84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68AAA28C131FFDAE000B7D84 /* Foundation.framework */; };
+		68AAA290131FFDAE000B7D84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AAA28F131FFDAE000B7D84 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		68AAA286131FFDAE000B7D84 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		68AAA288131FFDAE000B7D84 /* CoinToss */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CoinToss; sourceTree = BUILT_PRODUCTS_DIR; };
+		68AAA28C131FFDAE000B7D84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68AAA28F131FFDAE000B7D84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68AAA292131FFDAE000B7D84 /* CoinToss-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoinToss-Prefix.pch"; sourceTree = "<group>"; };
+		68AAA293131FFDAE000B7D84 /* CoinToss.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CoinToss.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68AAA285131FFDAE000B7D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AAA28D131FFDAE000B7D84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68AAA27D131FFDAD000B7D84 = {
+			isa = PBXGroup;
+			children = (
+				68AAA28E131FFDAE000B7D84 /* CoinToss */,
+				68AAA28B131FFDAE000B7D84 /* Frameworks */,
+				68AAA289131FFDAE000B7D84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68AAA289131FFDAE000B7D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68AAA288131FFDAE000B7D84 /* CoinToss */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68AAA28B131FFDAE000B7D84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68AAA28C131FFDAE000B7D84 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68AAA28E131FFDAE000B7D84 /* CoinToss */ = {
+			isa = PBXGroup;
+			children = (
+				68AAA28F131FFDAE000B7D84 /* main.m */,
+				68AAA293131FFDAE000B7D84 /* CoinToss.1 */,
+				68AAA291131FFDAE000B7D84 /* Supporting Files */,
+			);
+			path = CoinToss;
+			sourceTree = "<group>";
+		};
+		68AAA291131FFDAE000B7D84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68AAA292131FFDAE000B7D84 /* CoinToss-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68AAA287131FFDAE000B7D84 /* CoinToss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68AAA296131FFDAE000B7D84 /* Build configuration list for PBXNativeTarget "CoinToss" */;
+			buildPhases = (
+				68AAA284131FFDAE000B7D84 /* Sources */,
+				68AAA285131FFDAE000B7D84 /* Frameworks */,
+				68AAA286131FFDAE000B7D84 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoinToss;
+			productName = CoinToss;
+			productReference = 68AAA288131FFDAE000B7D84 /* CoinToss */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68AAA27F131FFDAD000B7D84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "White Peak Software Inc.";
+			};
+			buildConfigurationList = 68AAA282131FFDAD000B7D84 /* Build configuration list for PBXProject "CoinToss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68AAA27D131FFDAD000B7D84;
+			productRefGroup = 68AAA289131FFDAE000B7D84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68AAA287131FFDAE000B7D84 /* CoinToss */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68AAA284131FFDAE000B7D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AAA290131FFDAE000B7D84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		68AAA294131FFDAE000B7D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		68AAA295131FFDAE000B7D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		68AAA297131FFDAE000B7D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoinToss/CoinToss-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68AAA298131FFDAE000B7D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoinToss/CoinToss-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68AAA282131FFDAD000B7D84 /* Build configuration list for PBXProject "CoinToss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68AAA294131FFDAE000B7D84 /* Debug */,
+				68AAA295131FFDAE000B7D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68AAA296131FFDAE000B7D84 /* Build configuration list for PBXNativeTarget "CoinToss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68AAA297131FFDAE000B7D84 /* Debug */,
+				68AAA298131FFDAE000B7D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68AAA27F131FFDAD000B7D84 /* Project object */;
+}
