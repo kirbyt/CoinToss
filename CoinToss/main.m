@@ -7,20 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CoinTosser.h"
 
 int main (int argc, const char * argv[])
 {
 
    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
+   CoinTosser *tosser = [[CoinTosser alloc] init];
    for (int index = 0; index < 10; index++ ) {
-      int randomValue = arc4random()%10;
-      if (randomValue <= 5) {
-         NSLog(@"Heads");
-      } else {
-         NSLog(@"Tails");
-      }
+      [tosser flip];
+      NSLog(@"%@", [tosser lastResult]);
    }
+   NSLog(@"Tally: heads %i tails %i", [tosser headsCount], [tosser tailsCount]);
 
    [pool drain];
     return 0;

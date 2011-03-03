@@ -9,9 +9,18 @@
 #import <Foundation/Foundation.h>
 
 
-@interface CoinTosser : NSObject {
+@interface CoinTosser : NSObject 
+{
 @private
-    
+   int headsCount_;
+   int tailsCount_;
+   NSString *lastResult_;
 }
+
+@property (nonatomic, assign) int headsCount;
+@property (nonatomic, assign) int tailsCount;
+@property (nonatomic, copy) NSString *lastResult;
+
+- (void)flip;
 
 @end

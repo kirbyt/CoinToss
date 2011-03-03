@@ -11,19 +11,41 @@
 
 @implementation CoinTosser
 
-- (id)init
-{
-    self = [super init];
-    if (self) {
-        // Initialization code here.
-    }
-    
-    return self;
-}
+@synthesize headsCount = headsCount_;
+@synthesize tailsCount = tailsCount_;
+@synthesize lastResult = lastResult_;
 
 - (void)dealloc
 {
-    [super dealloc];
+   [lastResult_ release], lastResult_ = nil;
+   [super dealloc];
 }
+
+- (id)init
+{
+   self = [super init];
+   if (self) {
+      // Initialization code here.
+      headsCount_ = 0;
+      tailsCount_ = 0;
+      [self setLastResult:@""];
+   }
+   
+   return self;
+}
+
+- (void)flip
+{
+   int randomValue = arc4random()%10;
+   if (randomValue <= 5) {
+      [self setLastResult:@"Heads"];
+      [self setHeadsCount:[self headsCount] + 1];
+   } else {
+      [self setLastResult:@"Tails"];
+      [self setTailsCount:[self tailsCount] + 1];
+   }
+   
+}
+
 
 @end
