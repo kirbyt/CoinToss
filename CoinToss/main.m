@@ -13,11 +13,13 @@ int main (int argc, const char * argv[])
 
    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
-   int randomValue = arc4random()%10;
-   if (randomValue <= 5) {
-      NSLog(@"Heads");
-   } else {
-      NSLog(@"Tails");
+   for (int index = 0; index < 10; index++ ) {
+      int randomValue = arc4random()%10;
+      if (randomValue <= 5) {
+         NSLog(@"Heads");
+      } else {
+         NSLog(@"Tails");
+      }
    }
 
    [pool drain];

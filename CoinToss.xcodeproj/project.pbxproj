@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		68AAA28D131FFDAE000B7D84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68AAA28C131FFDAE000B7D84 /* Foundation.framework */; };
 		68AAA290131FFDAE000B7D84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AAA28F131FFDAE000B7D84 /* main.m */; };
+		68AAA29B13200375000B7D84 /* CoinTosser.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AAA29A13200375000B7D84 /* CoinTosser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		68AAA28F131FFDAE000B7D84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68AAA292131FFDAE000B7D84 /* CoinToss-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoinToss-Prefix.pch"; sourceTree = "<group>"; };
 		68AAA293131FFDAE000B7D84 /* CoinToss.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CoinToss.1; sourceTree = "<group>"; };
+		68AAA29913200375000B7D84 /* CoinTosser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinTosser.h; sourceTree = "<group>"; };
+		68AAA29A13200375000B7D84 /* CoinTosser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinTosser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				68AAA28F131FFDAE000B7D84 /* main.m */,
+				68AAA29913200375000B7D84 /* CoinTosser.h */,
+				68AAA29A13200375000B7D84 /* CoinTosser.m */,
 				68AAA293131FFDAE000B7D84 /* CoinToss.1 */,
 				68AAA291131FFDAE000B7D84 /* Supporting Files */,
 			);
@@ -137,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68AAA290131FFDAE000B7D84 /* main.m in Sources */,
+				68AAA29B13200375000B7D84 /* CoinTosser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
