@@ -20,6 +20,7 @@ int main (int argc, const char * argv[])
       NSLog(@"%@", [tosser lastResult]);
    }
    NSLog(@"Tally: heads %i tails %i", [tosser headsCount], [tosser tailsCount]);
+   [tosser release];
 
    [pool drain];
     return 0;
