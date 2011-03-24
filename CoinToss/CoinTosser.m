@@ -37,7 +37,7 @@
 - (void)flip
 {
    int randomValue = arc4random()%10;
-   if (randomValue <= 5) {
+   if (randomValue % 2) {
       [self setLastResult:@"Heads"];
       [self setHeadsCount:[self headsCount] + 1];
    } else {
