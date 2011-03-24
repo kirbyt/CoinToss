@@ -14,7 +14,7 @@ int main (int argc, const char * argv[])
    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
    int randomValue = arc4random()%10;
-   if (randomValue <= 5) {
+   if (randomValue % 2) {
       NSLog(@"Heads");
    } else {
       NSLog(@"Tails");
